@@ -3,7 +3,7 @@
 ### Crystal ###
 crystal/doc/
 crystal/lib/
-crystal/bin/
+crystal/bin/generator
 crystal/.shards/
 
 # Libraries don't need dependency lock
@@ -16,7 +16,7 @@ crystal/.shards/
 *.dll
 *.so
 *.dylib
-bin/
+golang/bin/generator
 
 # Test binary, build with `go test -c`
 *.test
